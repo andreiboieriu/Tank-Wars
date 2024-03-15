@@ -1,0 +1,248 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "defaultMaterial.005"
+        },
+        {
+            "mesh" : 1,
+            "name" : "defaultMaterial.006"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "wheels"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Collada visual scene group"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Sketchfab_model"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "wheels.003",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "defaultMaterial.036",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "defaultMaterial.037",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "wheels_normal.jpeg",
+            "uri" : "textures/wheels_normal.jpeg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "wheels_metallicRoughness.png",
+            "uri" : "textures/wheels_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "wheels_baseColor.jpeg",
+            "uri" : "textures/wheels_baseColor.jpeg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 10211,
+            "max" : [
+                -0.16427099704742432,
+                -0.07243870198726654,
+                -0.43331700563430786
+            ],
+            "min" : [
+                -0.28059399127960205,
+                -0.2401999980211258,
+                -0.6010779738426208
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 10211,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 10211,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 22794,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 10189,
+            "max" : [
+                0.28059399127960205,
+                -0.07243870198726654,
+                -0.43331700563430786
+            ],
+            "min" : [
+                0.16427099704742432,
+                -0.2401999980211258,
+                -0.6010779738426208
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 10189,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 10189,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 22848,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 122532,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 122532,
+            "byteOffset" : 122532
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81688,
+            "byteOffset" : 245064
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45588,
+            "byteOffset" : 326752
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 122268,
+            "byteOffset" : 372340
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 122268,
+            "byteOffset" : 494608
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 81512,
+            "byteOffset" : 616876
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45696,
+            "byteOffset" : 698388
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 744084,
+            "uri" : "big_wheels_0.bin"
+        }
+    ]
+}

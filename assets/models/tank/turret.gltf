@@ -1,0 +1,175 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "defaultMaterial.007"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "turret"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Collada visual scene group"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Sketchfab_model"
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "turret.001",
+            "normalTexture" : {
+                "index" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "defaultMaterial.007",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "turret_normal.jpeg",
+            "uri" : "textures/turret_normal.jpeg"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "turret_metallicRoughness.png",
+            "uri" : "textures/turret_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "turret_baseColor.jpeg",
+            "uri" : "textures/turret_baseColor.jpeg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 11307,
+            "max" : [
+                0.1793230026960373,
+                0.2910049855709076,
+                0.3252420127391815
+            ],
+            "min" : [
+                -0.1793230026960373,
+                0.005555749870836735,
+                -0.2738800048828125
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 11307,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 11307,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 32598,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 135684,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 135684,
+            "byteOffset" : 135684
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 90456,
+            "byteOffset" : 271368
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 65196,
+            "byteOffset" : 361824
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 427020,
+            "uri" : "turret.bin"
+        }
+    ]
+}
